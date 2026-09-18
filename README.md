@@ -91,6 +91,7 @@ const struct engineer umran = {
   <img src="assets/cards/stats.svg" width="49%" alt="Stats" />
   <img src="assets/cards/code-per-language.svg" width="49%" alt="Top languages by code" />
 </p>
+<p align="center"><sub>Cards are regenerated every Monday by a GitHub Action in this repository.</sub></p>
 
 ## 🏆 GitHub trophies
 
