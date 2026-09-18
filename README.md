@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Ümran Meryem Karabakal — Embedded Systems, RF & Wireless, Control" />
+<img src="assets/banner.svg" width="100%" alt="Ümran Meryem Karabakal — Computer Vision, Autonomous Systems, Embedded Systems" />
 
 ## 🎯 About me
 
@@ -12,21 +12,23 @@ const struct engineer umran = {
     .school   = "Istanbul Medeniyet University",
     .location = "Istanbul, Türkiye",
 
-    .building = {
-        "ESP32-S3 firmware (ESP-IDF, FreeRTOS)",
-        "SDR and RF links (bladeRF)",
-        "INDI control (Simulink, PX4 SITL)",
+    .focus = {
+        "Computer vision",
+        "ROS-based autonomous systems",
+        "Embedded systems and UAVs",
     },
 
     .research = {
-        "TÜBİTAK 1505: GSM victim localization",
-        "ASYU 2026: video-based modem diagnostics",
+        "TÜBİTAK 1505: robot-aided Wi-Fi AP placement",
+        "GSM victim localization (Jetson + SDR)",
+        "TÜBİTAK 2209-B: modem fault detection",
     },
 
-    .learning = {
-        "Embedded and wireless security",
-        "Secure boot and OTA",
-        "RTOS internals",
+    .paper = "ASYU 2026: modem status detection",
+
+    .teams = {
+        "TEAM IMU AV: TEKNOFEST 2026 finalist",
+        "TEAM IMU SOLOUAV: team captain",
     },
 };
 ```
@@ -44,11 +46,13 @@ const struct engineer umran = {
 <summary>🇹🇷 Türkçe</summary>
 <br />
 
-İstanbul Medeniyet Üniversitesi Elektrik-Elektronik Mühendisliği öğrencisiyim. Gömülü sistemler, RF ve kablosuz haberleşme ile kontrol sistemleri üzerine çalışıyorum.
+İstanbul Medeniyet Üniversitesi Elektrik-Elektronik Mühendisliği öğrencisiyim. Bilgisayarlı görü, ROS tabanlı otonom sistemler ve İHA teknolojileri üzerine çalışıyorum; derin öğrenme, gömülü sistemler ve robot algoritmalarıyla gerçek zamanlı uygulamalar geliştiriyorum.
 
-- **Şu an:** ESP32-S3 üzerinde ESP-IDF + FreeRTOS ile firmware, bladeRF ile SDR tabanlı RF çalışmaları, MATLAB/Simulink'te INDI kontrolcü tasarımı ve PX4 SITL doğrulaması.
-- **Araştırma:** TÜBİTAK 1505 kapsamında NVIDIA Jetson üzerinde GSM tabanlı afetzede konumlandırma. Görüntü işleme ile modem arıza ön tespiti çalışması (TÜBİTAK 2209-B) ASYU 2026'da bildiri olarak kabul edildi.
-- **Öğreniyorum:** gömülü ve kablosuz sistem güvenliği, secure boot ve OTA, RTOS iç yapısı.
+- **TÜBİTAK 1505 (lisans bursiyeri):** İşbirlikçi Otonom Kara ve Hava Robotları ile Kablosuz Erişim Noktası Yerleştirme ve Doğrulama. AP yerleşim optimizasyon algoritmalarını karşılaştırma, test arayüzü ve ESP32 cihazlarla yer istasyonu arasında ACK, CRC ve yeniden gönderim içeren haberleşme protokolü.
+- **GSM tabanlı kazazede konumlandırma:** İHA'lara yerleştirilen NVIDIA Jetson + SDR birimleriyle geçici GSM şebekesi kurup cep telefonlarını RSSI ile konumlandırma (devam ediyor).
+- **TÜBİTAK 2209-B (proje yürütücüsü):** Görüntü işleme ile modem arıza ön tespiti. Çalışma ASYU 2026'da sözlü bildiri olarak sunuldu.
+- **Staj:** QuanWifi, gömülü sistemler stajyeri (modem dayanıklılık test sistemi, anten hizalama sistemi).
+- **Takımlar:** TEAM IMU AV (TEKNOFEST 2026 Robotaksi finalisti), TEAM IMU SOLOUAV (takım kaptanı), TEAM IMU HAWK, TEAM IMU TOGAY.
 
 </details>
 
@@ -62,7 +66,7 @@ const struct engineer umran = {
 ## 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,matlab,arduino,raspberrypi,linux,ubuntu,bash,git,docker,ros,opencv,pytorch,tensorflow,qt,cmake,latex&perline=9" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,matlab,arduino,raspberrypi,linux,ubuntu,bash,git,docker,ros,opencv,pytorch,tensorflow,flask,flutter,latex&perline=9" alt="Tech stack icons" />
 </p>
 
 <p align="center">
@@ -71,9 +75,13 @@ const struct engineer umran = {
   <img src="https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logoColor=white" alt="Simulink" />
   <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=black" alt="NVIDIA Jetson" />
   <img src="https://img.shields.io/badge/SDR%20·%20bladeRF-20232A?style=for-the-badge" alt="SDR bladeRF" />
+  <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLO" />
+  <img src="https://img.shields.io/badge/Nav2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="Nav2" />
+  <img src="https://img.shields.io/badge/MAVROS-1F2A44?style=for-the-badge" alt="MAVROS" />
   <img src="https://img.shields.io/badge/PX4-1F2A44?style=for-the-badge" alt="PX4" />
   <img src="https://img.shields.io/badge/ArduPilot-161B22?style=for-the-badge" alt="ArduPilot" />
   <img src="https://img.shields.io/badge/Gazebo-F58113?style=for-the-badge&logoColor=black" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
