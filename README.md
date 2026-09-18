@@ -51,7 +51,7 @@ const struct engineer umran = {
 - **TÜBİTAK 1505 (lisans bursiyeri):** İşbirlikçi Otonom Kara ve Hava Robotları ile Kablosuz Erişim Noktası Yerleştirme ve Doğrulama. AP yerleşim optimizasyon algoritmalarını karşılaştırma, test arayüzü ve ESP32 cihazlarla yer istasyonu arasında ACK, CRC ve yeniden gönderim içeren haberleşme protokolü.
 - **GSM tabanlı kazazede konumlandırma:** İHA'lara yerleştirilen NVIDIA Jetson + SDR birimleriyle geçici GSM şebekesi kurup cep telefonlarını RSSI ile konumlandırma (devam ediyor).
 - **TÜBİTAK 2209-B (proje yürütücüsü):** Görüntü işleme ile modem arıza ön tespiti. Çalışma ASYU 2026'da sözlü bildiri olarak sunuldu.
-- **Staj:** QuanWifi, gömülü sistemler stajyeri (modem dayanıklılık test sistemi, anten hizalama sistemi).
+- **Staj:** QuantWifi, gömülü sistemler stajyeri (modem dayanıklılık test sistemi, anten hizalama sistemi).
 - **Takımlar:** TEAM IMU AV (TEKNOFEST 2026 Robotaksi finalisti), TEAM IMU SOLOUAV (takım kaptanı), TEAM IMU HAWK, TEAM IMU TOGAY.
 
 </details>
