@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="104" viewBox="0 0 480 104" role="img" aria-label="Quote: The purpose of computing is insight, not numbers. Richard Hamming">
+  <rect x="0.5" y="0.5" width="479" height="103" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="18" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#3fb8d4">“</text>
+  <text x="38" y="44" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#3fb8d4">The purpose of computing is insight, not numbers.</text>
+  <text x="462" y="80" text-anchor="end" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#3fb8d4">– Richard Hamming</text>
+</svg>

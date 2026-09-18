@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="Ümran Meryem Karabakal — Embedded Systems, RF and Wireless, Control">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="280" rx="6"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="280" fill="url(#bg)"/>
+    <rect width="1280" height="280" fill="url(#grid)" opacity="0.55"/>
+
+    <!-- scope trace across the banner -->
+    <path d="M0 214 C 60 214, 80 184, 120 184 S 180 244, 220 244 S 280 170, 330 170 S 400 250, 450 250 S 520 190, 570 200 S 660 232, 720 226 S 840 206, 900 212 S 1060 222, 1120 218 S 1220 214, 1280 214"
+          fill="none" stroke="#bf91f3" stroke-width="2" opacity="0.35"/>
+
+    <!-- board + antenna motif -->
+    <g transform="translate(70 58)">
+      <rect x="0" y="40" width="190" height="124" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+      <rect x="58" y="72" width="74" height="60" rx="4" fill="#1a1b27" stroke="#bf91f3" stroke-width="1.5"/>
+      <text x="95" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#38bdae">MCU</text>
+      <g stroke="#30363d" stroke-width="2">
+        <path d="M64 72V58M78 72V58M92 72V58M106 72V58M120 72V58"/>
+        <path d="M64 132V146M78 132V146M92 132V146M106 132V146M120 132V146"/>
+      </g>
+      <g fill="none" stroke="#38bdae" stroke-width="1.5" opacity="0.8">
+        <path d="M132 90H164V70"/>
+        <path d="M132 114H170"/>
+        <path d="M58 102H22V132"/>
+      </g>
+      <circle cx="22" cy="132" r="4" fill="#38bdae"/>
+      <circle cx="170" cy="114" r="4" fill="#38bdae"/>
+      <!-- antenna -->
+      <path d="M164 70V14" stroke="#e6edf3" stroke-width="2"/>
+      <circle cx="164" cy="12" r="4" fill="#e6edf3"/>
+      <g fill="none" stroke="#bf91f3" stroke-width="2" stroke-linecap="round">
+        <path d="M180 0 A 22 22 0 0 1 180 26" opacity="0.9"/>
+        <path d="M192 -10 A 36 36 0 0 1 192 36" opacity="0.6"/>
+        <path d="M204 -20 A 50 50 0 0 1 204 46" opacity="0.35"/>
+      </g>
+    </g>
+
+    <!-- wordmark -->
+    <text x="1216" y="138" text-anchor="end" textLength="820" lengthAdjust="spacingAndGlyphs"
+          font-family="Montserrat, 'Segoe UI', 'Arial Black', Arial, sans-serif" font-weight="900" font-size="56"
+          letter-spacing="1" fill="#ffffff">ÜMRAN MERYEM KARABAKAL</text>
+    <text x="1216" y="178" text-anchor="end"
+          font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#8b949e">Electrical &amp; Electronics Engineering  |  Embedded Systems  |  RF &amp; Wireless  |  Control</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="279" rx="6" fill="none" stroke="#30363d"/>
+</svg>

@@ -1,0 +1,33 @@
+name: Profil kartları
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # her pazartesi 06:00 (UTC+3)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kartları üret
+        run: python3 scripts/profile_cards.py --user umranmeryemkarabakal --out assets/cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Değiştiyse commit'le
+        run: |
+          git config user.name "umranmeryemkarabakal"
+          git config user.email "174094881+umranmeryemkarabakal@users.noreply.github.com"
+          git add assets/cards
+          git diff --cached --quiet || git commit -m "Profil kartlarını güncelle"
+          git push
