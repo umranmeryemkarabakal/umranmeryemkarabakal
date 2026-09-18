@@ -1,6 +1,6 @@
 <img src="assets/banner.svg" width="100%" alt="Ümran Meryem Karabakal — Computer Vision, Autonomous Systems, Embedded Systems" />
 
-## 🎯 About me
+## About me
 
 <table>
 <tr>
@@ -43,7 +43,7 @@ const struct engineer umran = {
 </table>
 
 <details>
-<summary>🇹🇷 Türkçe</summary>
+<summary>Türkçe</summary>
 <br />
 
 İstanbul Medeniyet Üniversitesi Elektrik-Elektronik Mühendisliği öğrencisiyim. Bilgisayarlı görü, ROS tabanlı otonom sistemler ve İHA teknolojileri üzerine çalışıyorum; derin öğrenme, gömülü sistemler ve robot algoritmalarıyla gerçek zamanlı uygulamalar geliştiriyorum.
@@ -56,14 +56,14 @@ const struct engineer umran = {
 
 </details>
 
-## 📫 Connect with me
+## Connect with me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/umran-meryem-karabakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/umranmeryemkarabakal"><img src="https://img.shields.io/badge/GitHub-21262D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-## 🛠️ Tech stack
+## Tech stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,py,matlab,arduino,raspberrypi,linux,ubuntu,bash,git,docker,ros,opencv,pytorch,tensorflow,flask,flutter,latex&perline=9" alt="Tech stack icons" />
@@ -86,7 +86,7 @@ const struct engineer umran = {
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-## 📊 GitHub analytics
+## GitHub analytics
 
 <p align="center">
   <img src="assets/cards/profile-details.svg" width="100%" alt="Profile details" />
@@ -101,7 +101,7 @@ const struct engineer umran = {
 </p>
 <p align="center"><sub>Cards are regenerated every Monday by a GitHub Action in this repository.</sub></p>
 
-## 🏆 GitHub trophies
+## GitHub trophies
 
 <p align="center">
   <img src="assets/cards/trophies.svg" alt="GitHub trophies" />
